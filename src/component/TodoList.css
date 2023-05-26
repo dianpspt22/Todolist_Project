@@ -1,0 +1,150 @@
+.form-todo{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.form-todo .button{
+    background-color: rgb(52, 52, 255);
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    width: 60px;
+}
+
+.form-todo .button:hover{
+    background-color: rgb(104, 104, 255);
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    width: 60px;
+}
+
+.form-todo h1{
+    font-size: 50px;
+}
+
+.todoss{
+    text-align: start;
+}
+
+.todoss .status{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 25px 0 25px 0;
+    gap: 30px;
+}
+
+.btn-all button{
+    border: 0;
+    border-radius: 10px;
+    height: 35px;
+    width: 170%;
+}
+
+.btn-active button{
+    margin-left: 10px;
+    border: 0;
+    border-radius: 10px;
+    height: 35px;
+    width: 130%;
+}
+
+.btn-complete button{
+    margin-left: 10px; 
+    border: 0;
+    border-radius: 10px;  
+    height: 35px;
+    width: 130%;
+}
+
+.btn-all button:hover{
+    background-color: rgb(73, 168, 73);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn-active button:hover{
+    margin-left: 10px;
+    background-color: rgb(73, 168, 73);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn-complete button:hover{
+    margin-left: 10px; 
+    background-color: rgb(73, 168, 73);
+    color: white;
+    border: 0;
+    border-radius: 10px;  
+}
+
+.form-input input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    background-color: lightgray;
+    padding-left: 15px;
+}
+
+.handle{
+    margin-bottom: 10px;
+    border: 1px solid rgb(117, 117, 117);
+    padding: 10px;
+    border-radius: 5px;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 33%;
+}
+
+.tempat-data{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.data-todo{
+    font-size: 20px;
+}
+
+.button-handle{
+    display: flex;
+    margin-left: 20px;
+}
+
+.button-handle .btn-edit{
+    margin-left: 20px;
+    background-color: rgb(73, 168, 73);
+    height: 50%;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.button-handle .btn-delete{
+    background-color: rgb(244, 72, 72);
+    margin-left: 5px;
+    border: 0;
+    border-radius: 5px;
+    height: 60%;
+    width: 50%;
+    color: white;
+}
+
+.button-handle .btn-edit:hover{
+    background-color: rgb(95, 135, 95);
+}
+
+.button-handle .btn-delete:hover{
+    background-color: rgb(179, 71, 71);
+}
+
